@@ -1,10 +1,3 @@
-body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 14px;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
 .box {
   position: relative;
   display: inline-block;
@@ -14,7 +7,6 @@ body {
   margin-right: -4px;
   cursor: pointer;
 }
-
 .box:hover {
   box-shadow: 0 0 8px #fff;
   z-index: 20;
@@ -50,7 +42,6 @@ body {
 .tenth {
   background-color: #91278f;
 }
-
 .crawl {
   -webkit-animation: crawl 4s;
 }
@@ -67,32 +58,7 @@ body {
   -webkit-animation: flip 4s;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 36px;
-  z-index: 0;
-}
-
-#links_list {
-  padding: 10px 20px;
-}
-
-a {
-  text-decoration: none;
-  margin: 0 10px;
-  color: #006884;
-}
-a:visited {
-  color: #006884;
-}
-a:hover {
-  color: #91278f;
-}
 /* ANIMATIONS */
-
 @-webkit-keyframes crawl {
   12%,
   15%,

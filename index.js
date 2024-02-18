@@ -7,6 +7,6 @@ document.querySelectorAll(".box").forEach(function (box) {
 
     setTimeout(function () {
       box.classList.remove(animation);
-    }, 4000);
+    }, 5000);
   });
 });
